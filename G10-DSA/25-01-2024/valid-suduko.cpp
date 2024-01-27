@@ -22,6 +22,13 @@ int main(){
 			// check if it repeats in col
 
 			// check if it repeats in sub-matrix 
+			int ulrow = (row/3)*3;
+			int ulcol = (col/3)*3;
+			for(int i=ulrow;i<ulrow+3;i++){
+				for(int j=ulcol;j<ulcol+3;j++){
+					
+				}
+			}
 		}
 	}
 	return 0;
